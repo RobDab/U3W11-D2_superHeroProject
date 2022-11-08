@@ -1,0 +1,63 @@
+<form (ngSubmit)="createHero()" #f>
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input
+      type="text"
+      ngModel
+      name="name"
+      class="form-control"
+      id="name"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="alterEgo" class="form-label">AlterEgo</label>
+    <input
+      type="text"
+      ngModel
+      name="alterEgo"
+      class="form-control"
+      id="alterEgo"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="power" class="form-label">Power</label>
+    <input
+      type="text"
+      ngModel
+      name="power"
+      class="form-control"
+      id="email"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="enemy" class="form-label">Enemy</label>
+    <input
+      type="text"
+      ngModel
+      name="enemy"
+      class="form-control"
+      id="enemy"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="planet" class="form-label">Planet</label>
+    <input type="text" ngModel name="planet" class="form-control" id="planet" />
+  </div>
+  <div class="mb-3">
+    <label for="weakness" class="form-label">Weakness</label>
+    <input
+      type="text"
+      ngModel
+      name="weakness"
+      class="form-control"
+      id="weakness"
+    />
+  </div>
+  <div class="mb-3">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
